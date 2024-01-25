@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 40px;
+  margin-bottom: 30px;
+  &__wrapper {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: wheat;
+    border-radius: 10px;
+  }
+  &__param {
+    display: flex;
+    flex-direction: column;
+    & * {
+      margin-bottom: 10px;
+    }
+    & input {
+      padding: 5px;
+      border: none;
+      box-sizing: border-box;
+      outline: none;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.582);
+    }
+  }
+}
+
+.MyBtn {
+  padding: 5px 15px;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
